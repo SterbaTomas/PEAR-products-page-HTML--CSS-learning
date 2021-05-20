@@ -1,0 +1,138 @@
+body, html {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+/* Navigation */
+
+nav {
+    background: #333;
+}
+
+nav img {
+    width: 50px;
+    margin-bottom: -5px;
+}
+.navimg:hover {
+    position: relative;
+    width: 42px;
+    top: 4px;
+    box-shadow: 2px 2px 1px #DAFFDD, -2px -2px 1px #DAFFDD, -2px 2px 1px #DAFFDD, 2px -2px 1px #DAFFDD;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+nav ul {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    width: 127px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: relative;
+    left: -29px;
+    padding-top: 10px;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #DAFFDD;
+}
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* MAIN */
+
+.firstphoto {
+    background: black;
+}
+
+.firstphoto img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 100px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+main h2 span {
+    font-size: 60px;
+}
+
+.section1 img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    transform: rotate(15deg);
+}
+
+.section2 h2 {
+    font-size: 60px;
+    margin-top: -30;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #86868b;
+    background: #f5f5f7;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+/* dalsi stranky */
+
+.nomore {
+    background: black;
+}
+.nomore p {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.odstavce {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.odstavce p {
+    text-align: center;
+    margin-bottom: 35px;
+    
+}
+
+.odstavce img {
+    width: 200px;
+}
